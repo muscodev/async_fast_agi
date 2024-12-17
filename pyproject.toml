@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "async_fast_agi"
+version = "0.1.0"
+description = "async agi server app from panoramisk as decorator pattern"
+authors = ["muslih k"]
+readme = "README.md"
+packages = [{ include = "async_fast_agi" }] 
+
+[tool.poetry.dependencies]
+python = "^3.11"
+panoramisk = "^1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
